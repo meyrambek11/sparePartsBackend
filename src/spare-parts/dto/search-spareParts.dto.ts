@@ -6,10 +6,8 @@ export class SearchSparePartDto {
   readonly name: string;
 
   @IsOptional()
-  //   @IsNumber()
   readonly page: number;
 
   @IsOptional()
-  //   @IsNumber()
   readonly pageSize: number;
 }

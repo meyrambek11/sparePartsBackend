@@ -8,7 +8,7 @@ import {
 
 export enum SortingElements {
   name = "name",
-  article_number = "used",
+  article_number = "article_number",
   amount = "amount",
   price = "price",
 }
@@ -28,10 +28,8 @@ export class SortSparePartDto {
   readonly sortingBy: SortingBy;
 
   //   @IsOptional()
-  //   //   @IsNumber()
   //   readonly page: number;
 
   //   @IsOptional()
-  //   //   @IsNumber()
   //   readonly pageSize: number;
 }
